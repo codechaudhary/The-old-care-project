@@ -1,12 +1,12 @@
 /*
-=============== 
+===============
 Fonts
 ===============
 */
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
 
 /*
-=============== 
+===============
 Variables
 ===============
 */
@@ -136,7 +136,7 @@ p {
   }
 }
 /*
-=============== 
+===============
 Animation
 ===============
 */
@@ -202,10 +202,22 @@ Animation
   }
 }
 /*
-=============== 
+===============
 Navbar
 ===============
 */
+ /* code for explore functionality with navbar */
+/* CSS for hiding the navigation bar by default */
+/* #navbar {
+  display: none;
+}
+
+/* CSS to show the navigation bar when it has the "active" class */
+/* #navbar.active {
+  display: block;
+} */
+
+
 .nav-btn {
   position: fixed;
   top: 5%;
@@ -274,14 +286,14 @@ Navbar
   }
 }
 /*
-=============== 
+===============
 Header
 ===============
 */
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("images.jpg") center/cover no-repeat fixed;
+    url("../images/oldwomen_doctor.jpg") center/cover no-repeat fixed;
   position: relative;
   /* animation */
   overflow-x: hidden;
@@ -325,7 +337,7 @@ Header
   );
 }
 /*
-=============== 
+===============
 Skills
 ===============
 */
@@ -335,7 +347,7 @@ Skills
 }
 .skill {
   padding: 2.5rem 0;
-  text-align: center;
+  text-align:center;
   transition: var(--transition);
 }
 .skill-icon {
@@ -347,7 +359,7 @@ Skills
 }
 .skill-text {
   color: var(--clr-grey-5);
-  max-width: 17rem;
+  max-width: 117rem;
   margin: 0 auto;
 }
 .skill:hover {
@@ -369,7 +381,7 @@ Skills
   }
 }
 /*
-=============== 
+===============
 About
 ===============
 */
@@ -406,7 +418,7 @@ About
   }
 }
 /*
-=============== 
+===============
 Products
 ===============
 */
@@ -460,7 +472,7 @@ Products
   }
 }
 /*
-=============== 
+===============
 Services
 ===============
 */
@@ -534,7 +546,7 @@ Services
   border: 0.375rem solid var(--clr-grey-10);
 }
 /*
-=============== 
+===============
 Contact
 ===============
 */
@@ -605,7 +617,7 @@ Contact
   }
 }
 /*
-=============== 
+===============
 Footer
 ===============
 */
