@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,7 +6,7 @@
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom css -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
@@ -14,12 +15,12 @@
     <!-- navbar -->
     <!-- nav button -->
     <span class="nav-btn" id="nav-btn">
-      <i class="fa fa-bars" style="font-size:36px"></i>
+      <i class="fas fa-bars"></i>
     </span>
     <nav class="navbar" id="navbar">
       <div class="navbar-header">
         <span class="nav-close" id="nav-close">
-         <i class="fa fa-close" style="font-size:36px"></i>
+          <i class="fas fa-times"></i>
         </span>
       </div>
       <ul class="nav-items">
@@ -37,11 +38,13 @@
         <h1>
           Old Care
         </h1>
-        <a href="services.html" class="btn banner-btn">
+        <a href="services.html" id="explore-button" class="btn banner-btn">
           Explore
         </a>
       </div>
     </header>
+
+
     <!-- end of header  -->
     <div class="content-divider"></div>
     <!-- skills section -->
@@ -49,7 +52,7 @@
       <!-- single skill -->
       <article class="skill">
         <span class="skill-icon">
-          <i class="fas fa-mug-hot"></i>
+          <i class="fas fa-bomb"></i>
         </span>
         <h4 class="skill-title">Consultancy</h4>
         <p class="skill-text">
@@ -60,7 +63,7 @@
       <!-- single skill -->
       <article class="skill">
         <span class="skill-icon">
-          <i class="fas fa-glass-cheers"></i>
+          <i class="fas fa-bomb"></i>
         </span>
         <h4 class="skill-title">Attendants</h4>
         <p class="skill-text">
@@ -71,7 +74,7 @@
       <!-- single skill -->
       <article class="skill">
         <span class="skill-icon">
-          
+          <i class="fas fa-bomb"></i>
         </span>
         <h4 class="skill-title">Nurses</h4>
         <p class="skill-text">
@@ -82,7 +85,7 @@
       <!-- single skill -->
       <article class="skill">
         <span class="skill-icon">
-          <i class="fas fa-mortar-pestle"></i>
+          <i class="fas fa-bomb"></i>
         </span>
         <h4 class="skill-title">Elderly Cares</h4>
         <p class="skill-text">
@@ -99,7 +102,7 @@
         <article class="about-img">
           <div class="about-picture-container">
             <img
-              src="img1.jpg"
+              src="./images/img1.jpg"
               alt="tea kettle"
               class="about-picture"
             />
@@ -113,10 +116,9 @@
           </div>
           <!-- end of section title -->
           <p class="about-text" font>
-            Service with care is the motto” of oldcare.
-            Our constant endeavour is to ingrain the values of
-            “ Service before Self ”and to inculcate the importance
-            of duty to fellow beings before expecting their rights.
+            <b>OldCare:</b> Where Compassion Meets Commitment. Our mission is to embrace <b>Service with Care</b>,
+            prioritizing the well-being of the elderly by instilling the values of <b>Service before Self</b>.
+            Join us in making a difference and putting the needs of others first.
           </p>
         </article>
       </div>
@@ -137,14 +139,14 @@
           <div class="service-img-container">
             <!-- img -->
             <img
-              src="img3.png"
+              src="./images/consultant.png"
               class="service-img"
               alt="single service"
             />
             <!-- service icon -->
-            <span class="service-icon">
-
-            </span>
+            <!-- <span class="service-icon">
+              <i class="<a target="_blank" href="https://icons8.com/icon/H4fUnXOtRllL/consultant"></a> <a target="_blank" href="https://icons8.com"></a></i>
+            </span> -->
           </div>
           <!-- service info -->
           <div class="service-info">
@@ -165,14 +167,14 @@
           <div class="service-img-container">
             <!-- img -->
             <img
-              src="elder.png"
+              src="./images/elderly_help.png"
               class="service-img"
               alt="single service"
             />
             <!-- service icon -->
-            <span class="service-icon">
-
-            </span>
+            <!-- <span class="service-icon">
+              <i class="fas fa-home fa-fw"></i>
+            </span> -->
           </div>
           <!-- service info -->
           <div class="service-info">
@@ -193,13 +195,14 @@
           <div class="service-img-container">
             <!-- img -->
             <img
-              src="img2.png"
+              src="./images/attendee.png"
               class="service-img"
               alt="single service"
             />
             <!-- service icon -->
-            <span class="service-icon">
-            </span>
+            <!-- <span class="service-icon">
+              <i class="fas fa-mug-hot fa-fw"></i>
+            </span> -->
           </div>
           <!-- service info -->
           <div class="service-info">
@@ -226,12 +229,12 @@
           <div class="contact-item">
             <h4 class="contact-title">
               <span class="contact-icon">
-                <i class="fa fa-address-card" style="font-size:24px"></i>
+                <i class="fas fa-location-arrow"></i>
               </span>
               address
             </h4>
             <h4 class="contact-text">
-              Vilasni Bldg Shivaji Path Thane <br/>
+              Vilasni Bldg Shivaji Path Thane <br />
               Mumbai,Delhi,400601,India
             </h4>
           </div>
@@ -240,7 +243,7 @@
           <div class="contact-item">
             <h4 class="contact-title">
               <span class="contact-icon">
-                <i class="fa fa-envelope" style="font-size:24px"></i>
+                <i class="fas fa-envelope"></i>
               </span>
               email
             </h4>
@@ -253,7 +256,7 @@
           <div class="contact-item">
             <h4 class="contact-title">
               <span class="contact-icon">
-                <i class="fa fa-phone-square" style="font-size:24px"></i>
+                <i class="fas fa-phone"></i>
               </span>
               telephone
             </h4>
